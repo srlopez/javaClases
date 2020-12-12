@@ -1,5 +1,7 @@
 package entornos.consola;
 
+import java.util.Scanner;
+
 import entornos.matematicas.*;
 import entornos.textos.*;
 
@@ -7,7 +9,13 @@ public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println("Hola Mundo! Empieza main");
+        System.out.println("Hola Mundo!");
+        System.out.println("método main corriendo ...");
+
+
+		Scanner teclado = new Scanner(System.in);
+		// System.out.println("Dame un número");
+		// double j = teclado.nextDouble();
 
         // DEfinicion de una variable de tipo String
         String persona;
