@@ -4,9 +4,6 @@ public class Fraccion {
     private int numerador;
     private int denominador;
 
-    public int n(){ return numerador;}
-    public int d(){ return denominador;}
-
     public Fraccion(int n, int d) {
         numerador = n;
         denominador = d;
