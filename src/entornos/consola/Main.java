@@ -57,6 +57,11 @@ public class Main {
         ct2.texto2 = "tres";
         ct.ensena();
 
+        // mcd
+        saludos("al Mcd de 34 y 16"+Calculadora.mcd(34,16));
+
+
+
         // Fraccion
         Fraccion f1 = new Fraccion(3, 4);
         saludos(f1.toString());
@@ -64,6 +69,9 @@ public class Main {
         saludos(f2.toString());
         Fraccion f3 = new Fraccion(1, 8);
         saludos(f3.toString());
+        Fraccion f4 = new Fraccion(3,5);
+        Fraccion f5 = new Fraccion(2,4);
+        saludos("f4+f5="+cal2.suma(f4, f5));
 
         // MCD
         System.out.println("mcd de 8 y 6 = " + cal.mcd(8, 6));
@@ -88,6 +96,6 @@ public class Main {
 
     // Defunición de un metodo void == procedimiento
     public static void saludos(String persona) {
-        System.out.println("Hola, que tal " + persona + " ?");
+        System.out.println("Hola, que tal " + persona + "...");
     }
 }
