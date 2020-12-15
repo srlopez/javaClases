@@ -17,6 +17,14 @@ public class Fraccion {
         denominador = 1;
     }
 
+    public Fraccion mas(Fraccion f){
+        int n = numerador * f.denominador + f.numerador * denominador;
+        int d = denominador*f.denominador;
+        int mcd = Calculadora.mcd(n, d);
+        //System.out.println(n + " " + d + " " + mcd);
+        return new Fraccion(n / mcd, d / mcd);
+    }
+
     public String toString() {
         return numerador + "/" + denominador;
     }

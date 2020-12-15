@@ -25,11 +25,7 @@ public class Calculadora {
     }
 
     public Fraccion suma(Fraccion x, Fraccion y) {
-        int n = x.n() * y.d() + y.n() * x.d();
-        int d = x.d() * y.d();
-        int mcd = mcd(n, d);
-        //System.out.println(n + " " + d + " " + mcd);
-        return new Fraccion(n / mcd, d / mcd);
+        return x.mas(y);
     }
 
     // RESTA
@@ -66,8 +62,8 @@ public class Calculadora {
     }
 
     // OTRA OPERACIONES
-    public int mcd(int x, int y) {
-        // minimo comun divisor
+    public static int mcd(int x, int y) {
+        // maximo comun divisor
 
         while (x != y)
             if (x > y)
@@ -79,7 +75,7 @@ public class Calculadora {
     }
 
     public int mcm(int x, int y) {
-        // maximo comun multiplo
+        // minimo comun multiplo
         int mcm = 1;
         int i = 2;
         while (i <= x || i <= y) {
