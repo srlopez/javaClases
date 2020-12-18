@@ -21,6 +21,7 @@ class CalculadoraTests {
     @Test
     @DisplayName("Prueba de resta de 5 de una memporia de 30")
     void resta5DeMemoria30() {
+        fail("Not yet implemented");
         // Preparación//Arrange//Given
 
         // Ejecución//Act//When
