@@ -9,7 +9,7 @@ public class CadenaTexto {
         return texto1 + texto2;
     }
 
-    public static void ensena() {
+    public static void mostrar() {
         System.out.println(texto1);
         System.out.println(texto2);
     }
@@ -19,6 +19,6 @@ public class CadenaTexto {
         CadenaTexto.texto1 = "uno";
         CadenaTexto.texto2 = "dos";
         System.out.println(CadenaTexto.union());
-        CadenaTexto.ensena();
+        CadenaTexto.mostrar();
     }
 }

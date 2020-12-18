@@ -1,6 +1,6 @@
 package entornos.consola;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
 import entornos.matematicas.*;
 import entornos.textos.*;
@@ -13,7 +13,7 @@ public class Main {
         System.out.println("método main corriendo ...");
 
 
-		Scanner teclado = new Scanner(System.in);
+		// Scanner teclado = new Scanner(System.in);
 		// System.out.println("Dame un número");
 		// double j = teclado.nextDouble();
 
@@ -50,12 +50,12 @@ public class Main {
         ct.texto1 = "uno";
         ct.texto2 = "dos";
         System.out.println("la union es = '" + ct.union() + "'");
-        ct.ensena();
+        ct.mostrar();
         // Confirmacion de los valores staticos
         CadenaTexto ct2 = new CadenaTexto();
         System.out.println("la union es = '" + ct.union() + "'");
         ct2.texto2 = "tres";
-        ct.ensena();
+        ct.mostrar();
 
         // mcd
         saludos("al Mcd de 34 y 16"+Utilidades.mcd(34,16));
