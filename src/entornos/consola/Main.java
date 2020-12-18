@@ -58,7 +58,7 @@ public class Main {
         ct.ensena();
 
         // mcd
-        saludos("al Mcd de 34 y 16"+Calculadora.mcd(34,16));
+        saludos("al Mcd de 34 y 16"+Utilidades.mcd(34,16));
 
 
 
@@ -74,11 +74,11 @@ public class Main {
         saludos("f4+f5="+cal2.suma(f4, f5));
 
         // MCD
-        System.out.println("mcd de 8 y 6 = " + cal.mcd(8, 6));
-        System.out.println("mcd de 13 y 15 = " + cal.mcd(13, 15));
-        System.out.println("mcd de 21 y 9 = " + cal.mcd(21, 9));
-        System.out.println("mcd de 14 y 16 = " + cal.mcd(14, 16));
-        System.out.println("mcd de 12 y 6 = " + cal.mcd(12, 6));
+        System.out.println("mcd de 8 y 6 = " + Utilidades.mcd(8, 6));
+        System.out.println("mcd de 13 y 15 = " + Utilidades.mcd(13, 15));
+        System.out.println("mcd de 21 y 9 = " + Utilidades.mcd(21, 9));
+        System.out.println("mcd de 14 y 16 = " + Utilidades.mcd(14, 16));
+        System.out.println("mcd de 12 y 6 = " + Utilidades.mcd(12, 6));
 
         // MCM
         // System.out.println("mcm de 8 y 6 = " + cal.mcm(8, 6));

@@ -17,7 +17,7 @@ public class Fraccion {
     public Fraccion mas(Fraccion f){
         int n = numerador * f.denominador + f.numerador * denominador;
         int d = denominador*f.denominador;
-        int mcd = Calculadora.mcd(n, d);
+        int mcd = Utilidades.mcd(n, d);
         //System.out.println(n + " " + d + " " + mcd);
         return new Fraccion(n / mcd, d / mcd);
     }
