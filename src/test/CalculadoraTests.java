@@ -40,9 +40,7 @@ class CalculadoraTests {
 
     // Una función que nos devuelva el menor de TRES números
 
-    // Una función (en CadenaTexto) que crea un string de '-' y 'o', en la que se pasan 4 parametros.
-    //    Longitud final del string,  posición de inicio, y fin de 'o', y  
-}
+ }
  // Otra clase de Test
  // Una función (en CadenaTexto) que crea un string de '=-' y 'o', en la que se pasan 4 parametros.
  //    Longitud final del string,  posición de inicio, y fin de 'o', y separación entre ellos,
